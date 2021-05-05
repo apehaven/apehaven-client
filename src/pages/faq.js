@@ -46,11 +46,11 @@ const Faq = () => {
               <Row className="justify-content-center text-center">
                 <Col lg="9">
                   <Title variant="hero" color="white">Frequently Asked Question</Title>
-                  <Text color="purpleLight">
+                  {/* <Text color="purpleLight">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam
-                </Text>
+                </Text> */}
                 </Col>
               </Row>
             </Container>
