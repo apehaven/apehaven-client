@@ -26,9 +26,9 @@ const LandingPage4 = () => {
         <div id="where-we-donate">
           <WhereWeDonate />
         </div>
-        <div id="how-to-buy">
+        {/* <div id="how-to-buy">
           <FAQ />
-        </div>
+        </div> */}
       </PageWrapper>
     </>
   );

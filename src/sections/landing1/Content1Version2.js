@@ -81,6 +81,7 @@ const Content1 = () => (
             </div>
           </Col>
         </Row>
+        <div style={{ height: 50 }} />
       </Container>
     </Section>
   </>

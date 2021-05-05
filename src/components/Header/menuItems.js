@@ -30,8 +30,8 @@ export const menuItems = [
     name: "where-we-donate",
     label: "Where we Donate",
   },
-  {
-    name: "how-to-buy",
-    label: "How to Buy",
-  },
+  // {
+  //   name: "how-to-buy",
+  //   label: "How to Buy",
+  // },
 ];

@@ -124,7 +124,7 @@ const Footer = ({ isDark = true }) => {
                           </a>
                         </div>
                       </Col>
-                      <Col md={3} sm={6} xs={6}>
+                      {/* <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#how-to-buy">
                             <TitleStyled
@@ -135,7 +135,7 @@ const Footer = ({ isDark = true }) => {
                             </TitleStyled>
                           </a>
                         </div>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </Col>
                 </Row>
