@@ -1,3 +1,5 @@
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/3f0d7710-9dc1-4d40-a464-df6443c9f0d1/deploy-status)](https://app.netlify.com/sites/apehaven/deploys)
+
 # Next Doc
 For Omega NextJS Template 
 # Quick Start
