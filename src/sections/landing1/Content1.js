@@ -17,6 +17,26 @@ const ShapeBottmRight = styled(Box)`
   }
 `;
 
+// const BorderContainer = styled.div`
+//   position: absolute;
+//   width: 468px;
+//   height: 263px;
+//   right: -30px;
+//   top: 30px;
+//   border-radius: 10px;
+//   overflow: hidden;
+// `;
+// const Border = styled.div`
+//   width: 100%;
+//   height: 100%;
+  
+//   box-sizing: border-box;
+//   transform: rotate(-180deg);
+//   border: 8px solid;
+//   pointer-events: none;
+//   border-image: linear-gradient(180deg, rgba(244, 217, 11, 1), rgba(244, 217, 11, 0.08) 50%) 30;
+// `;
+
 const Content1 = () => (
   <>
     {/* <!-- Content section 1 --> */}
@@ -35,15 +55,20 @@ const Content1 = () => (
                 data-aos-once="true"
               >
                 <iframe
-                  src="https://www.youtube.com/embed/2QkInwVfFJc"
+                  src="https://www.youtube.com/embed/2QkInwVfFJc?autoplay=1&mute=1&controls=0&loop=1&&playlist=2QkInwVfFJc"
                   title="YouTube video player"
                   frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; loop; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                  height="100%"
-                  width="100%"
-                  style={{ minHeight: 350, borderRadius: 30 }}
+                  loop
+                  height="263"
+                  width="468"
+                  autoplay
+                  style={{ borderRadius: 20 }}
                 ></iframe>
+                {/* <BorderContainer>
+                  <Border />
+                </BorderContainer> */}
               </div>
             </div>
           </Col>
