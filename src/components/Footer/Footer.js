@@ -53,28 +53,28 @@ const Footer = ({ isDark = true }) => {
       {/* <!-- Footer section --> */}
       <Box bg="dark" style={{ paddingTop: 30 }}>
         <Container fluid>
-          <Row className="align-items-center justify-content-center" style={{ marginBottom: 30 }}>
-            <a href="https://t.me/ApeHaven">
+          <Row className="align-items-center justify-content-center">
+            <a href="https://t.me/ApeHaven" style={{ marginBottom: 15 }}>
               <img src={share} className="img-fluid" />
             </a>
-            <div style={{ width: 15 }} />
-            <a href="https://twitter.com/ApeHaven">
+            <div style={{ width: 15, height: 15 }} />
+            <a href="https://twitter.com/ApeHaven" style={{ marginBottom: 15 }}>
               <img src={twitter} className="img-fluid" />
             </a>
-            <div style={{ width: 15 }} />
-            <a href="https://www.reddit.com/r/ApeHaven/">
+            <div style={{ width: 15, height: 15 }} />
+            <a href="https://www.reddit.com/r/ApeHaven/" style={{ marginBottom: 15 }}>
               <img src={reddit} className="img-fluid" />
             </a>
             <div style={{ width: 15 }} />
-            <a href="https://www.instagram.com/apehaven/">
+            <a href="https://www.instagram.com/apehaven/" style={{ marginBottom: 15 }}>
               <img src={instagram} className="img-fluid" />
             </a>
             <div style={{ width: 15 }} />
-            <a href="https://www.facebook.com/ApeHaven">
+            <a href="https://www.facebook.com/ApeHaven" style={{ marginBottom: 15 }}>
               <img src={facebook} className="img-fluid" />
             </a>
             <div style={{ width: 15 }} />
-            <a href="https://www.twitch.tv/apehaven">
+            <a href="https://www.twitch.tv/apehaven" style={{ marginBottom: 15 }}>
               <img src={twitch} className="img-fluid" />
             </a>
           </Row>
@@ -88,7 +88,7 @@ const Footer = ({ isDark = true }) => {
                 <Row className="justify-content-flex-start align-items-flex-start">
                   <Col className="justify-content-flex-start align-items-flex-start">
                     <Row className="justify-content-flex-start">
-                      <Col>
+                      <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#why-apes">
                             <TitleStyled
@@ -100,7 +100,7 @@ const Footer = ({ isDark = true }) => {
                           </a>
                         </div>
                       </Col>
-                      <Col>
+                      <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#tokenomics">
                             <TitleStyled
@@ -112,7 +112,7 @@ const Footer = ({ isDark = true }) => {
                           </a>
                         </div>
                       </Col>
-                      <Col>
+                      <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#where-we-donate">
                             <TitleStyled
@@ -124,7 +124,7 @@ const Footer = ({ isDark = true }) => {
                           </a>
                         </div>
                       </Col>
-                      <Col>
+                      <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#how-to-buy">
                             <TitleStyled
@@ -141,15 +141,17 @@ const Footer = ({ isDark = true }) => {
                 </Row>
               </Box>
             </Col>
-            <Col lg={4}>
+            <Col lg={3}>
               <CopyRightArea dark>
                 <Row className="align-items-flex-start justify-content-flex-start">
-                  <Col>
+                  <Col sm={8}>
                     <p>copyright &copy;apehaven | banana@apehaven.com</p>
                   </Col>
-                  <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
-                    <Button style={{ maxHeight: 50 }} bg="primary">Buy $APES</Button>
-                  </a>
+                  <Col sm={4}>
+                    <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
+                      <Button style={{ maxHeight: 50 }} bg="primary">Buy $APES</Button>
+                    </a>
+                  </Col>
                 </Row>
               </CopyRightArea>
             </Col>

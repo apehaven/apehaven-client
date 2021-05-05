@@ -19,7 +19,7 @@ import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
 
-import imgFavicon from "../../assets/favicon.png";
+import imgFavicon from "../../assets/image/svg/banana.svg";
 
 import { get, merge } from "lodash";
 // the full theme object
@@ -93,8 +93,8 @@ const Layout = ({ children, pageContext }) => {
       >
         <GlobalStyle />
         <Head>
-          <title>Omega</title>
-          <link rel="icon" type="image/png" href={imgFavicon} />
+          <title>ApeHaven</title>
+          <link rel="icon" type="image/svg" href={imgFavicon} />
         </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">
@@ -124,7 +124,7 @@ const Layout = ({ children, pageContext }) => {
           <link rel="preconnect" href="https://fonts.gstatic.com" /> 
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
 
-          <link rel="icon" type="image/png" href={imgFavicon} />
+          <link rel="icon" type="image/svg" href={imgFavicon} />
         </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">

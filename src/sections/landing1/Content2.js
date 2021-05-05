@@ -131,23 +131,23 @@ const Content2 = () => (
                   <Text>
                     Connect with Drew Roberts on
                   </Text>
-                  <Row>
-                    <div>
+                  <Row ml={15}>
+                    <Col sm={12}>
                       <a href="https://twitter.com/drewroberts" target="_blank" rel="noreferrer">
                         <Button mt={3} mr={3} bg="primary">Twitter</Button>
                       </a>
                       <a href="https://facebook.com/drewroberts" target="_blank" rel="noreferrer">
                         <Button mt={3} mr={3} bg="secondary">Facebook</Button>
                       </a>
-                    </div>
-                    <div>
+                    </Col>
+                    <Col sm={12}>
                       <a href="https://linkedin.com/in/drewroberts" target="_blank" rel="noreferrer">
                         <Button mt={3} mr={3} bg="secondary">LinkedIn</Button>
                       </a>
                       <a href="https://github.com/drewroberts" target="_blank" rel="noreferrer">
                         <Button mt={3} mr={3} bg="primary">GitHub</Button>
                       </a>
-                    </div>
+                    </Col>
                   </Row>
                 </div>
               </div>

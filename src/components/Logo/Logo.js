@@ -9,7 +9,7 @@ const Logo = ({ white, height, className = "", ...rest }) => {
     <Link href="/">
       <a className={`${className}`} {...rest}>
         {white ? (
-          <img src={imgL1LogoWhite} alt="" />
+          <img src={imgL1LogoWhite} style={{ height: 40 }} alt="" />
         ) : (
           <img src={imgL1Logo} alt="" />
         )}

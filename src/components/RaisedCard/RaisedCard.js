@@ -6,11 +6,11 @@ import avatar from '../../assets/image/png/ape-avatar.png';
 import { device } from "../../utils";
 
 const Card = styled.div`
+  padding: 25px;
   display: flex;
-  padding: 35px;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   max-width: 800px;
 
   background: #FFFFFF;
@@ -19,6 +19,9 @@ const Card = styled.div`
 
   @media ${device.md} {
     flex-direction: row;
+    align-items: center;
+    padding: 35px;
+    height: 160px;
   }
 `;
 
@@ -32,12 +35,10 @@ const Avatar = styled.img`
 const Column = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   @media ${device.md} {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-right: 30px;
   }
 `;
 

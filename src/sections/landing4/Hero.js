@@ -37,7 +37,7 @@ const RaisedCardContainer = styled.div`
   margin-top: 30px;
   @media ${device.md} {
     position: absolute;
-    bottom: -60px;
+    bottom: -80px;
     z-index: 3;
     display: flex;
     flex-direction: row;
@@ -82,12 +82,13 @@ const Hero = () => {
                     A conservation oriented token providing a haven for $APES.
                   </Text>
                   <div className="d-flex flex-column align-items-start pt-3">
-                    <div className="d-flex flex-row">
+                    <div className="d-flex flex-row" style={{  width: '100vw', flexWrap: 'wrap' }}>
                       <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
                         <Button mb={2} color="black" bg="yellow">Buy on UniSwap</Button>
                       </a>
+                      <div style={{ width: theme.space[3] }} />
                       <a href="https://t.me/ApeHaven" target="_blank" rel="noreferrer">
-                        <Button mb={2} bg="secondary" style={{ marginLeft: theme.space[3] }}>Join the Telegram</Button>
+                        <Button mb={2} bg="secondary">Join the Telegram</Button>
                       </a>
                     </div>
                     <div className="d-flex flex-row" style={{ marginTop: theme.space[3] }}>
