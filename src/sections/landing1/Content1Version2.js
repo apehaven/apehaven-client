@@ -54,7 +54,7 @@ const Content1 = () => (
                 data-aos-duration="750"
                 data-aos-once="true"
               >
-                <img src={ape2Image} alt="" className="img-fluid" />
+                <img src={ape2Image} alt="" className="img-fluid" style={{ borderRadius: 30 }} />
                 <Logo src={cfga} alt="" className="img-fluid" />
               </div>
               <Border />

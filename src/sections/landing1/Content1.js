@@ -34,7 +34,16 @@ const Content1 = () => (
                 data-aos-duration="750"
                 data-aos-once="true"
               >
-                <img src={monkeyVidFake} alt="" className="img-fluid" />
+                <iframe
+                  src="https://www.youtube.com/embed/2QkInwVfFJc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  height="100%"
+                  width="100%"
+                  style={{ minHeight: 350, borderRadius: 30 }}
+                ></iframe>
               </div>
             </div>
           </Col>

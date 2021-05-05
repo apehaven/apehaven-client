@@ -125,7 +125,7 @@ const Feature = () => (
                   data-aos-once="true"
                   data-aos-delay="50"
                 >
-                  <FeatureCard title="Profit from holding" image={cashMoney}>
+                  <FeatureCard title="HODL to Save The Apes" image={cashMoney}>
                     We automatically distribute tokens to holders who
                     benifit sipmly by holding their tokens.
                   </FeatureCard>

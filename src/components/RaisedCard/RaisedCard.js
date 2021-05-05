@@ -102,7 +102,7 @@ RaisedCard.propTypes = {
 };
 
 RaisedCard.defaultProps = {
-  raised: '$18,229',
+  raised: '$25,000',
 };
 
 export default RaisedCard;
