@@ -93,7 +93,7 @@ const Feature = () => (
                   data-aos-once="true"
                   data-aos-delay="50"
                 >
-                  <FeatureCard title="Original Supply" img={banana}>
+                  <FeatureCard title="Original Supply" image={banana}>
                     1,000,000,000
                   </FeatureCard>
                 </Col>
@@ -105,7 +105,7 @@ const Feature = () => (
                   data-aos-once="true"
                   data-aos-delay="50"
                 >
-                  <FeatureCard title="10% tax on transactions" img={database}>
+                  <FeatureCard title="10% tax on transactions" image={database}>
                     7% liquidity
                     <br />
                     2% dividend to holders
@@ -119,7 +119,7 @@ const Feature = () => (
                   data-aos-once="true"
                   data-aos-delay="50"
                 >
-                  <FeatureCard title="Profit from holding" img={cashMoney}>
+                  <FeatureCard title="Profit from holding" image={cashMoney}>
                     We automatically distribute tokens to holders who
                     benifit sipmly by holding their tokens.
                   </FeatureCard>
@@ -132,7 +132,7 @@ const Feature = () => (
                   data-aos-once="true"
                   data-aos-delay="50"
                 >
-                  <FeatureCard title="conservation wallet" img={dollar}>
+                  <FeatureCard title="conservation wallet" image={dollar}>
                     1% conservation/charity wallet
                   </FeatureCard>
                 </Col>
