@@ -91,17 +91,24 @@ const Hero = () => {
                         <Button mb={2} bg="secondary">Join the Telegram</Button>
                       </a>
                     </div>
-                    <div className="d-flex flex-row" style={{ marginTop: theme.space[3] }}>
-                      <img src={chartSvg} className="img-fluid" style={{ marginRight: theme.space[3] }} />
-                      <Text
-                        variant="small"
-                        fontSize={"14px"}
-                        color="light"
-                        opacity={0.7}
-                      >
-                        View Chart
-                    </Text>
-                    </div>
+                    
+                    <a
+                      href="https://www.dextools.io/app/uniswap/pair-explorer/0xf431bbfff6334e19ebf7ed76dde0a17b76271b9b"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="d-flex flex-row" style={{ marginTop: theme.space[3] }}>
+                        <img src={chartSvg} className="img-fluid" style={{ marginRight: theme.space[3] }} />
+                        <Text
+                          variant="small"
+                          fontSize={"14px"}
+                          color="light"
+                          opacity={0.7}
+                        >
+                          View Chart
+                        </Text>
+                      </div>
+                    </a>
                   </div>
                 </Box>
               </div>

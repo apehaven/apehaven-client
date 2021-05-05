@@ -80,7 +80,13 @@ const Feature = () => (
               and an aggressive transaction tax distribution, $happy
               allows you to earn big as you hodl.
               </Text>
-              <Button mt={4} color="purpleDark" bg="yellow">View Chart</Button>
+              <a
+                href="https://www.dextools.io/app/uniswap/pair-explorer/0xf431bbfff6334e19ebf7ed76dde0a17b76271b9b"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button mt={4} color="purpleDark" bg="yellow">View Chart</Button>
+              </a>
             </Box>
           </Col>
           <Col md="8" lg="5" className="order-lg-1 mt-5 mt-lg-0">

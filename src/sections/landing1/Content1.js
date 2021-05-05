@@ -9,7 +9,7 @@ import imgL1FeatureCurve from "../../assets/image/png/swish.png";
 
 const ShapeBottmRight = styled(Box)`
   position: absolute;
-  bottom: 0px;
+  bottom: -3px;
   left: -5px;
   width: calc(100vw + 10px);
   img {
