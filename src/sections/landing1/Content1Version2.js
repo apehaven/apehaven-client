@@ -10,7 +10,7 @@ import cfga from "../../assets/image/svg/cfga.svg";
 
 const ShapeBottmRight = styled(Box)`
   position: absolute;
-  bottom: 0px;
+  bottom: -3px;
   left: -5px;
   width: calc(100vw + 10px);
   img {
