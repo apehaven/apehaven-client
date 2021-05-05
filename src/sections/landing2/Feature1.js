@@ -76,9 +76,9 @@ const Feature = () => (
             <Box>
               <Title color="light">Tokenomics</Title>
               <Text color="light" opacity={0.7}>
-              With a charity wallet set aside from the initial supply,
-              and an aggressive transaction tax distribution, $happy
-              allows you to earn big as you hodl.
+                We are here for the $APES! 1% of each transaction goes
+                to the Center for Great Apes. Help us support their vital
+                mission and buy $APES.
               </Text>
               <a
                 href="https://www.dextools.io/app/uniswap/pair-explorer/0xf431bbfff6334e19ebf7ed76dde0a17b76271b9b"
@@ -127,7 +127,7 @@ const Feature = () => (
                 >
                   <FeatureCard title="HODL to Save The Apes" image={cashMoney}>
                     We automatically distribute tokens to holders who
-                    benifit sipmly by holding their tokens.
+                    benifit simply by holding their tokens.
                   </FeatureCard>
                 </Col>
                 <Col
