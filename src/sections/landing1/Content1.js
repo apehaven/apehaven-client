@@ -98,7 +98,7 @@ const Content1 = () => (
                   <Button mt={3} bg="secondary" style={{ marginRight: theme.space[3] }}>Buy on UniSwap</Button>
                 </a>
                 <a
-                  href="https://www.apehaven.com/apehaven.pdf"
+                  href="/apehaven.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
