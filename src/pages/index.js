@@ -5,7 +5,6 @@ import Tokenomics from "../sections/landing2/Feature1";
 import MeetTheDeveloper from "../sections/landing1/Content2";
 import WhereWeDonate from "../sections/landing1/Content1Version2";
 import PageWrapper from "../components/PageWrapper";
-import FAQ from "../pages/faq";
 
 const LandingPage4 = () => {
   return (
