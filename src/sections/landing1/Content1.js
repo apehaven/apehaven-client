@@ -57,13 +57,13 @@ const Content1 = () => (
                 <iframe
                   src="https://www.youtube.com/embed/2QkInwVfFJc?autoplay=1&mute=1&controls=0&loop=1&&playlist=2QkInwVfFJc"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; loop; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                   loop
                   height="263"
-                  width="468"
-                  autoplay
+                  width="100%"
+                  autoPlay
                   style={{ borderRadius: 20 }}
                 ></iframe>
                 {/* <BorderContainer>
@@ -81,27 +81,29 @@ const Content1 = () => (
               <Box>
                 <Title>The $APES need our help</Title>
                 <Text mb={4}>
-                  Real apes are traded among exotic animal collectors who
-                  find they cannot properly care for their apes.
-                  Ape sanctuaries rescue these apes and restore them to full health.
-                  At ApeHaven, we leveraged automatic-yield-generating technology
-                  with a charitable mission. 1% of each transaction of $APES
-                  token is donated to the Center for Great Apes and other
-                  wildlife sanctuaries.
+                  Endangered Apes are traded among exotic animal collectors who
+                  find they cannot properly care for their Apes. Generous
+                  sanctuaries rescue these Apes and restore them to full health.
+                  At ApeHaven, we leveraged automatic-yield-generating
+                  technology with a charitable mission. 1% of each transaction
+                  of $APES token is donated to the Center for Great Apes and
+                  other wildlife sanctuaries.
                 </Text>
-                  
+
                 <a
                   href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button mt={3} bg="secondary" style={{ marginRight: theme.space[3] }}>Buy on UniSwap</Button>
+                  <Button
+                    mt={3}
+                    bg="secondary"
+                    style={{ marginRight: theme.space[3] }}
+                  >
+                    Buy on Uniswap
+                  </Button>
                 </a>
-                <a
-                  href="/apehaven.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="/apehaven.pdf" target="_blank" rel="noreferrer">
                   <Button mt={3}>Whitepaper</Button>
                 </a>
                 <a
@@ -109,7 +111,9 @@ const Content1 = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button mt={3} bg="purpleDark">Join the Telegram</Button>
+                  <Button mt={3} bg="purpleDark">
+                    Join the Telegram
+                  </Button>
                 </a>
               </Box>
             </div>

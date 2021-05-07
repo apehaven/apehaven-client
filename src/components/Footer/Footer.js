@@ -62,28 +62,43 @@ const Footer = ({ isDark = true }) => {
               <img src={twitter} className="img-fluid" />
             </a>
             <div style={{ width: 15, height: 15 }} />
-            <a href="https://www.reddit.com/r/ApeHaven/" style={{ marginBottom: 15 }}>
+            <a
+              href="https://www.reddit.com/r/ApeHaven/"
+              style={{ marginBottom: 15 }}
+            >
               <img src={reddit} className="img-fluid" />
             </a>
             <div style={{ width: 15 }} />
-            <a href="https://www.instagram.com/apehaven/" style={{ marginBottom: 15 }}>
+            <a
+              href="https://www.instagram.com/apehaven/"
+              style={{ marginBottom: 15 }}
+            >
               <img src={instagram} className="img-fluid" />
             </a>
             <div style={{ width: 15 }} />
-            <a href="https://www.facebook.com/ApeHaven" style={{ marginBottom: 15 }}>
+            <a
+              href="https://www.facebook.com/ApeHaven"
+              style={{ marginBottom: 15 }}
+            >
               <img src={facebook} className="img-fluid" />
             </a>
             <div style={{ width: 15 }} />
-            <a href="https://www.twitch.tv/apehaven" style={{ marginBottom: 15 }}>
+            <a
+              href="https://www.twitch.tv/apehaven"
+              style={{ marginBottom: 15 }}
+            >
               <img src={twitch} className="img-fluid" />
             </a>
           </Row>
           <Row style={{ padding: 50 }}>
-            <Col lg={8} className="align-items-flex-start justify-content-flex-start">
+            <Col
+              lg={8}
+              className="align-items-flex-start justify-content-flex-start"
+            >
               <Box
                 css={`
-              padding: 80px 0 60px;
-            `}
+                  padding: 80px 0 60px;
+                `}
               >
                 <Row className="justify-content-flex-start align-items-flex-start">
                   <Col className="justify-content-flex-start align-items-flex-start">
@@ -91,10 +106,7 @@ const Footer = ({ isDark = true }) => {
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#why-apes">
-                            <TitleStyled
-                              variant="card"
-                              color="white"
-                            >
+                            <TitleStyled variant="card" color="white">
                               Why $APES
                             </TitleStyled>
                           </a>
@@ -103,10 +115,7 @@ const Footer = ({ isDark = true }) => {
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#tokenomics">
-                            <TitleStyled
-                              variant="card"
-                              color="white"
-                            >
+                            <TitleStyled variant="card" color="white">
                               Tokenomics
                             </TitleStyled>
                           </a>
@@ -115,10 +124,7 @@ const Footer = ({ isDark = true }) => {
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#where-we-donate">
-                            <TitleStyled
-                              variant="card"
-                              color="white"
-                            >
+                            <TitleStyled variant="card" color="white">
                               Where we donate
                             </TitleStyled>
                           </a>
@@ -144,12 +150,16 @@ const Footer = ({ isDark = true }) => {
             <Col lg={3}>
               <CopyRightArea dark>
                 <Row className="align-items-flex-start justify-content-flex-start">
-                  <Col sm={8}>
-                    <p>copyright &copy;apehaven</p>
-                  </Col>
+                  <Col sm={8}>&npsp;</Col>
                   <Col sm={4}>
-                    <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
-                      <Button style={{ maxHeight: 50 }} bg="primary">Buy $APES</Button>
+                    <a
+                      href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button style={{ maxHeight: 50 }} bg="primary">
+                        Buy $APES
+                      </Button>
                     </a>
                   </Col>
                 </Row>
