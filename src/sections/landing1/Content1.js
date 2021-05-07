@@ -62,7 +62,7 @@ const Content1 = () => (
                   allowfullscreen
                   loop
                   height="263"
-                  width="468"
+                  width="100%"
                   autoplay
                   style={{ borderRadius: 20 }}
                 ></iframe>
