@@ -79,7 +79,7 @@ const Hero = () => {
                     for the $APES
                   </Title>
                   <Text mb={4} color="light" opacity={0.7}>
-                    A conservation oriented token providing a haven for $APES.
+                    A conservation token providing safe haven for Great $APES.
                   </Text>
                   <div className="d-flex flex-column align-items-start pt-3">
                     <div className="d-flex flex-row" style={{  width: '100vw', flexWrap: 'wrap' }}>
