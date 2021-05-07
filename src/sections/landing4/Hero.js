@@ -34,7 +34,7 @@ const RaisedCardContainer = styled.div`
   bottom: 0;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 70px;
   @media ${device.md} {
     position: absolute;
     bottom: -80px;
@@ -43,6 +43,7 @@ const RaisedCardContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     width: 100vw;
+    margin-top: 30px;
   }
 `;
 
