@@ -76,7 +76,7 @@ const Feature = () => (
             <Box>
               <Title color="light">Tokenomics</Title>
               <Text color="light" opacity={0.7}>
-                We are here for the $APES! 1% of each transaction goes to the
+                We are here for the $APES! 1% of each transaction goes directly to the
                 Center for Great Apes. Help us support their vital mission and
                 buy $APES.
               </Text>
@@ -114,7 +114,7 @@ const Feature = () => (
                   data-aos-delay="50"
                 >
                   <FeatureCard title="10% tax on transactions" image={database}>
-                    7% liquidity
+                    7% token strength
                     <br />
                     2% reflection to holders
                   </FeatureCard>
