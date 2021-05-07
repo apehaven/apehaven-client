@@ -8,6 +8,7 @@ import reddit from "../../assets/image/svg/reddit-large.svg";
 import instagram from "../../assets/image/svg/instagram.svg";
 import facebook from "../../assets/image/svg/facebook.svg";
 import twitch from "../../assets/image/svg/twitch.svg";
+import { device } from "../../utils";
 
 const TitleStyled = styled(Title)`
   font-size: 16px;
@@ -47,6 +48,16 @@ const CopyRightArea = styled.div`
   }
 `;
 
+const SocialMedia = styled.a`
+  width: 35px;
+  height: 35px;
+  margin-bottom: 15px;
+  @media ${device.lg} {
+    width: 75px;
+    height: 75px;
+  }
+`;
+
 const Footer = ({ isDark = true }) => {
   return (
     <>
@@ -54,36 +65,39 @@ const Footer = ({ isDark = true }) => {
       <Box bg="dark" style={{ paddingTop: 30 }}>
         <Container fluid>
           <Row className="align-items-center justify-content-center">
-            <a href="https://t.me/ApeHaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://t.me/ApeHaven">
               <img src={share} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15, height: 15 }} />
-            <a href="https://twitter.com/ApeHaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://twitter.com/ApeHaven">
               <img src={twitter} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15, height: 15 }} />
-            <a href="https://www.reddit.com/r/ApeHaven/" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.reddit.com/r/ApeHaven/">
               <img src={reddit} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15 }} />
-            <a href="https://www.instagram.com/apehaven/" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.instagram.com/apehaven/">
               <img src={instagram} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15 }} />
-            <a href="https://www.facebook.com/ApeHaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.facebook.com/ApeHaven">
               <img src={facebook} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15 }} />
-            <a href="https://www.twitch.tv/apehaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.twitch.tv/apehaven">
               <img src={twitch} className="img-fluid" />
-            </a>
+            </SocialMedia>
           </Row>
           <Row style={{ padding: 50 }}>
-            <Col lg={8} className="align-items-flex-start justify-content-flex-start">
+            <Col
+              lg={8}
+              className="align-items-flex-start justify-content-flex-start"
+            >
               <Box
                 css={`
-              padding: 80px 0 60px;
-            `}
+                  padding: 80px 0 60px;
+                `}
               >
                 <Row className="justify-content-flex-start align-items-flex-start">
                   <Col className="justify-content-flex-start align-items-flex-start">
@@ -91,10 +105,7 @@ const Footer = ({ isDark = true }) => {
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#why-apes">
-                            <TitleStyled
-                              variant="card"
-                              color="white"
-                            >
+                            <TitleStyled variant="card" color="white">
                               Why $APES
                             </TitleStyled>
                           </a>
@@ -103,10 +114,7 @@ const Footer = ({ isDark = true }) => {
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#tokenomics">
-                            <TitleStyled
-                              variant="card"
-                              color="white"
-                            >
+                            <TitleStyled variant="card" color="white">
                               Tokenomics
                             </TitleStyled>
                           </a>
@@ -115,10 +123,7 @@ const Footer = ({ isDark = true }) => {
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
                           <a href="#where-we-donate">
-                            <TitleStyled
-                              variant="card"
-                              color="white"
-                            >
+                            <TitleStyled variant="card" color="white">
                               Where we donate
                             </TitleStyled>
                           </a>
@@ -144,12 +149,16 @@ const Footer = ({ isDark = true }) => {
             <Col lg={3}>
               <CopyRightArea dark>
                 <Row className="align-items-flex-start justify-content-flex-start">
-                  <Col sm={8}>
-                    <p>copyright &copy;apehaven | banana@apehaven.com</p>
-                  </Col>
+                  <Col sm={8}>&npsp;</Col>
                   <Col sm={4}>
-                    <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
-                      <Button style={{ maxHeight: 50 }} bg="primary">Buy $APES</Button>
+                    <a
+                      href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button style={{ maxHeight: 50 }} bg="primary">
+                        Buy $APES
+                      </Button>
                     </a>
                   </Col>
                 </Row>

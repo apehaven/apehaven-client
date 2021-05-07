@@ -19,8 +19,6 @@ import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
 
-import imgFavicon from "../../assets/image/svg/banana.svg";
-
 import { get, merge } from "lodash";
 // the full theme object
 import { theme as baseTheme } from "../../utils";
@@ -124,7 +122,7 @@ const Layout = ({ children, pageContext }) => {
           <link rel="preconnect" href="https://fonts.gstatic.com" /> 
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
 
-          <link rel="icon" type="image/svg" href={imgFavicon} />
+          <link rel="icon" href='/favicon.ico' />
         </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">

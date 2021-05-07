@@ -71,7 +71,7 @@ const Content1 = () => (
                 <Text mb={4} color="white">
                   We are currently supporting the Center for Great Apes.
                   By simply transacting $APES tokens,
-                  you support the ape sanctuary without making a direct donation.
+                  you support the Ape sanctuary without making a direct donation.
                 </Text>
                   
                 <a href="https://centerforgreatapes.org/" target="_blank" rel="noreferrer">

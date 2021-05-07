@@ -111,41 +111,62 @@ const Content2 = () => (
             >
               <div className="content-text pl-lg--50">
                 <div className="section-title">
-                  <Title>
-                    meet the developer
-                  </Title>
+                  <Title>meet the developer</Title>
                   <Text mb={4}>
                     Drew Roberts grew up on a farm in Kentucky and began
-                    programming games in middle school on a TI-83
-                    calculator with friends at Louisville Collegiate School.
-                    He graduated from Trinity Preparatory School in Winter Park,
-                    Florida, and college at Samford University in Birmingham, Alabama.
-                    After driving to Costa Rica, he eventually returned to Orlando
-                    and continued his interest in code through a family insurance agency,
-                    a college football website, an escape room company,
-                    and recently in the cryptocurrency space.
-                    He is fascinated by tokenomics and rallying a community to
-                    donate a portion of their transaction fees to
-                    great nonprofit organizations.
+                    programming games in middle school on a TI-83 calculator
+                    with friends at Louisville Collegiate School. He graduated
+                    from Trinity Preparatory School in Winter Park, Florida, and
+                    college at Samford University in Birmingham, Alabama..
                   </Text>
-                  <Text>
-                    Connect with Drew Roberts on
+                  <Text mb={4}>
+                    After driving to Costa Rica, he eventually returned to Orlando and
+                    continued his interest in code through a family insurance
+                    agency, a college football website, an escape room company,
+                    and recently in the cryptocurrency space. He is fascinated
+                    by tokenomics and rallying a community to donate a portion
+                    of their transaction fees to great nonprofit organizations.
                   </Text>
+                  <Text>Connect with Drew Roberts on</Text>
                   <Row ml={15}>
                     <Col sm={12}>
-                      <a href="https://twitter.com/drewroberts" target="_blank" rel="noreferrer">
-                        <Button mt={3} mr={3} bg="primary">Twitter</Button>
+                      <a
+                        href="https://twitter.com/drewroberts"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Button mt={3} mr={3} bg="primary">
+                          Twitter
+                        </Button>
                       </a>
-                      <a href="https://facebook.com/drewroberts" target="_blank" rel="noreferrer">
-                        <Button mt={3} mr={3} bg="secondary">Facebook</Button>
+                      <a
+                        href="https://facebook.com/drewroberts"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Button mt={3} mr={3} bg="secondary">
+                          Facebook
+                        </Button>
                       </a>
                     </Col>
                     <Col sm={12}>
-                      <a href="https://linkedin.com/in/drewroberts" target="_blank" rel="noreferrer">
-                        <Button mt={3} mr={3} bg="secondary">LinkedIn</Button>
+                      <a
+                        href="https://linkedin.com/in/drewroberts"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Button mt={3} mr={3} bg="secondary">
+                          LinkedIn
+                        </Button>
                       </a>
-                      <a href="https://github.com/drewroberts" target="_blank" rel="noreferrer">
-                        <Button mt={3} mr={3} bg="primary">GitHub</Button>
+                      <a
+                        href="https://github.com/drewroberts"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Button mt={3} mr={3} bg="primary">
+                          GitHub
+                        </Button>
                       </a>
                     </Col>
                   </Row>

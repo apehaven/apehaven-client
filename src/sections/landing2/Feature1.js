@@ -76,16 +76,18 @@ const Feature = () => (
             <Box>
               <Title color="light">Tokenomics</Title>
               <Text color="light" opacity={0.7}>
-                We are here for the $APES! 1% of each transaction goes
-                to the Center for Great Apes. Help us support their vital
-                mission and buy $APES.
+                We are here for the $APES! 1% of each transaction goes to the
+                Center for Great Apes. Help us support their vital mission and
+                buy $APES.
               </Text>
               <a
                 href="https://www.dextools.io/app/uniswap/pair-explorer/0xf431bbfff6334e19ebf7ed76dde0a17b76271b9b"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Button mt={4} color="purpleDark" bg="yellow">View Chart</Button>
+                <Button mt={4} color="purpleDark" bg="yellow">
+                  View Chart
+                </Button>
               </a>
             </Box>
           </Col>
@@ -114,7 +116,7 @@ const Feature = () => (
                   <FeatureCard title="10% tax on transactions" image={database}>
                     7% liquidity
                     <br />
-                    2% dividend to holders
+                    2% reflection to holders
                   </FeatureCard>
                 </Col>
                 <Col
@@ -126,8 +128,8 @@ const Feature = () => (
                   data-aos-delay="50"
                 >
                   <FeatureCard title="HODL to Save The Apes" image={cashMoney}>
-                    We automatically distribute tokens to holders who
-                    benifit simply by holding their tokens.
+                    We automatically distribute tokens to holders who benefit
+                    simply by holding tokens in their wallets
                   </FeatureCard>
                 </Col>
                 <Col
