@@ -8,6 +8,7 @@ import reddit from "../../assets/image/svg/reddit-large.svg";
 import instagram from "../../assets/image/svg/instagram.svg";
 import facebook from "../../assets/image/svg/facebook.svg";
 import twitch from "../../assets/image/svg/twitch.svg";
+import { device } from "../../utils";
 
 const TitleStyled = styled(Title)`
   font-size: 16px;
