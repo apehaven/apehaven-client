@@ -144,9 +144,6 @@ const Footer = ({ isDark = true }) => {
             <Col lg={3}>
               <CopyRightArea dark>
                 <Row className="align-items-flex-start justify-content-flex-start">
-                  <Col sm={8}>
-                    <p>copyright &copy;apehaven | banana@apehaven.com</p>
-                  </Col>
                   <Col sm={4}>
                     <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
                       <Button style={{ maxHeight: 50 }} bg="primary">Buy $APES</Button>
