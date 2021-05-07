@@ -95,7 +95,7 @@ const Content1 = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button mt={3} bg="secondary" style={{ marginRight: theme.space[3] }}>Buy on UniSwap</Button>
+                  <Button mt={3} bg="secondary" style={{ marginRight: theme.space[3] }}>Buy on Uniswap</Button>
                 </a>
                 <a
                   href="/apehaven.pdf"
