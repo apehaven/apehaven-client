@@ -15,17 +15,20 @@ const SectionStyled = styled(Section)`
 
 const ImgRight = styled(Box)`
   position: relative;
-  left: -100px;
+  left: -200px;
   max-width: 100%;
-  min-width: 100%;
-  @media ${device.lg} {
+  min-width: 140%;
+  @media ${device.md} {
     position: absolute;
     top: -85px;
     max-width: 140%;
     min-width: 140%;
-    right: 0;
+    right: 150px;
     left: auto;
     transform: translateX(25%);
+  }
+  @media ${device.lg} {
+    right: 0;
   }
 `;
 
