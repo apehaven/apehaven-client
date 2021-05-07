@@ -15,9 +15,9 @@ const SectionStyled = styled(Section)`
 
 const ImgRight = styled(Box)`
   position: relative;
-  left: -100px;
+  left: -200px;
   max-width: 100%;
-  min-width: 100%;
+  min-width: 140%;
   @media ${device.lg} {
     position: absolute;
     top: -85px;
