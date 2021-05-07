@@ -8,6 +8,7 @@ import reddit from "../../assets/image/svg/reddit-large.svg";
 import instagram from "../../assets/image/svg/instagram.svg";
 import facebook from "../../assets/image/svg/facebook.svg";
 import twitch from "../../assets/image/svg/twitch.svg";
+import { device } from "../../utils";
 
 const TitleStyled = styled(Title)`
   font-size: 16px;
@@ -47,6 +48,16 @@ const CopyRightArea = styled.div`
   }
 `;
 
+const SocialMedia = styled.a`
+  width: 35px;
+  height: 35px;
+  margin-bottom: 15px;
+  @media ${device.lg} {
+    width: 75px;
+    height: 75px;
+  }
+`;
+
 const Footer = ({ isDark = true }) => {
   return (
     <>
@@ -54,29 +65,29 @@ const Footer = ({ isDark = true }) => {
       <Box bg="dark" style={{ paddingTop: 30 }}>
         <Container fluid>
           <Row className="align-items-center justify-content-center">
-            <a href="https://t.me/ApeHaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://t.me/ApeHaven">
               <img src={share} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15, height: 15 }} />
-            <a href="https://twitter.com/ApeHaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://twitter.com/ApeHaven">
               <img src={twitter} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15, height: 15 }} />
-            <a href="https://www.reddit.com/r/ApeHaven/" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.reddit.com/r/ApeHaven/">
               <img src={reddit} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15 }} />
-            <a href="https://www.instagram.com/apehaven/" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.instagram.com/apehaven/">
               <img src={instagram} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15 }} />
-            <a href="https://www.facebook.com/ApeHaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.facebook.com/ApeHaven">
               <img src={facebook} className="img-fluid" />
-            </a>
+            </SocialMedia>
             <div style={{ width: 15 }} />
-            <a href="https://www.twitch.tv/apehaven" style={{ marginBottom: 15 }}>
+            <SocialMedia href="https://www.twitch.tv/apehaven">
               <img src={twitch} className="img-fluid" />
-            </a>
+            </SocialMedia>
           </Row>
           <Row style={{ padding: 50 }}>
             <Col lg={8} className="align-items-flex-start justify-content-flex-start">
