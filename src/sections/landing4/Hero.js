@@ -37,7 +37,7 @@ const RaisedCardContainer = styled.div`
   bottom: 0;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 30px;
+  margin-top: 70px;
   @media ${device.md} {
     position: absolute;
     bottom: -80px;
@@ -46,6 +46,7 @@ const RaisedCardContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     width: 100vw;
+    margin-top: 30px;
   }
 `;
 
@@ -87,7 +88,7 @@ const Hero = () => {
                   <div className="d-flex flex-column align-items-start pt-3">
                     <div className="d-flex flex-row" style={{  width: '100vw', flexWrap: 'wrap' }}>
                       <a href="https://app.uniswap.org/#/swap?outputCurrency=0x14dd7ebe6cb084cb73ef377e115554d47dc9d61e" target="_blank" rel="noreferrer">
-                        <Button mb={2} color="black" bg="yellow">Buy on Uniswap</Button>
+                        <Button mb={3} color="black" bg="yellow">Buy on Uniswap</Button>
                       </a>
                       <div style={{ width: theme.space[3] }} />
                       <a href="https://t.me/ApeHaven" target="_blank" rel="noreferrer">

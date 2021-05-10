@@ -62,29 +62,29 @@ const Footer = ({ isDark = true }) => {
   return (
     <>
       {/* <!-- Footer section --> */}
-      <Box bg="dark" style={{ paddingTop: 30 }}>
+      <Box bg="dark" style={{ paddingTop: 50 }}>
         <Container fluid>
           <Row className="align-items-center justify-content-center">
             <SocialMedia href="https://t.me/ApeHaven">
               <img src={share} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 15, height: 15 }} />
+            <div style={{ width: 30, height: 15 }} />
             <SocialMedia href="https://twitter.com/ApeHaven">
               <img src={twitter} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 15, height: 15 }} />
+            <div style={{ width: 30, height: 15 }} />
             <SocialMedia href="https://www.reddit.com/r/ApeHaven/">
               <img src={reddit} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 15 }} />
+            <div style={{ width: 30 }} />
             <SocialMedia href="https://www.instagram.com/apehaven/">
               <img src={instagram} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 15 }} />
+            <div style={{ width: 30 }} />
             <SocialMedia href="https://www.facebook.com/ApeHaven">
               <img src={facebook} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 15 }} />
+            <div style={{ width: 30 }} />
             <SocialMedia href="https://www.twitch.tv/apehaven">
               <img src={twitch} className="img-fluid" />
             </SocialMedia>
