@@ -110,16 +110,16 @@ const Content2 = () => (
               data-aos-once="true"
             >
               <div className="content-text pl-lg--50">
-                <div className="section-title pl-lg-5">
-                  <Title>meet the developer</Title>
-                  <Text mb={4}>
+                <div className="section-title">
+                  <Title style={{ color: '#443D4F' }}>meet the developer</Title>
+                  <Text mb={4} style={{ color: '#878787' }}>
                     Drew Roberts grew up on a farm in Kentucky and began
                     programming games in middle school on a TI-83 calculator
                     with friends at Louisville Collegiate School. He graduated
                     from Trinity Preparatory School in Winter Park, Florida, and
                     college at Samford University in Birmingham, Alabama..
                   </Text>
-                  <Text mb={4}>
+                  <Text mb={4} style={{ color: '#878787' }}>
                     After driving to Costa Rica, he eventually returned to Orlando and
                     continued his interest in code through a family insurance
                     agency, a college football website, an escape room company,
@@ -127,7 +127,7 @@ const Content2 = () => (
                     by tokenomics and rallying a community to donate a portion
                     of their transaction fees to great nonprofit organizations.
                   </Text>
-                  <Text>Connect with Drew Roberts on</Text>
+                  <Text style={{ color: '#878787' }}>Connect with Drew Roberts on</Text>
                   <Row ml={15}>
                     <Col sm={12}>
                       <a

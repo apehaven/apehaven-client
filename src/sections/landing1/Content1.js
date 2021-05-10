@@ -79,8 +79,8 @@ const Content1 = () => (
               data-aos-once="true"
             >
               <Box>
-                <Title>The $APES need our help</Title>
-                <Text mb={4}>
+                <Title style={{ color: '#443D4F' }}>The $APES need our help</Title>
+                <Text style={{ color: '#878787' }} mb={4}>
                   Endangered Apes are traded among exotic animal collectors who
                   find they cannot properly care for their Apes. Generous
                   sanctuaries rescue these Apes and restore them to full health.
