@@ -75,12 +75,15 @@ const Raised = styled.div`
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 65px;
+  font-size: 60px;
   line-height: 33px;
   text-align: right;
   letter-spacing: 1px;
   
   color: #443D4F;
+  @media ${device.lg} {
+    font-size: 65px;
+  } 
 `;
 
 const RaisedCard = ({ raised }) => (

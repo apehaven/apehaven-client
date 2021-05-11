@@ -52,7 +52,12 @@ const SocialMedia = styled.a`
   width: 35px;
   height: 35px;
   margin-bottom: 15px;
+  margin-left: 20px;
+  &:first-child {
+    margin-left: 0;
+  }
   @media ${device.lg} {
+    margin-left: 30px;
     width: 75px;
     height: 75px;
   }
@@ -68,23 +73,18 @@ const Footer = ({ isDark = true }) => {
             <SocialMedia href="https://t.me/ApeHaven">
               <img src={share} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 30, height: 15 }} />
             <SocialMedia href="https://twitter.com/ApeHaven">
               <img src={twitter} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 30, height: 15 }} />
             <SocialMedia href="https://www.reddit.com/r/ApeHaven/">
               <img src={reddit} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 30 }} />
             <SocialMedia href="https://www.instagram.com/apehaven/">
               <img src={instagram} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 30 }} />
             <SocialMedia href="https://www.facebook.com/ApeHaven">
               <img src={facebook} className="img-fluid" />
             </SocialMedia>
-            <div style={{ width: 30 }} />
             <SocialMedia href="https://www.twitch.tv/apehaven">
               <img src={twitch} className="img-fluid" />
             </SocialMedia>

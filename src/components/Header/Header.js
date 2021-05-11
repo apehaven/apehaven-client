@@ -26,13 +26,14 @@ const BuyButtonItem = () =>
 
 const EmptyFlex = styled.div`flex: 1;`;
 const SiteHeader = styled.header`
-  padding: 10px 0 10px 0;
+  padding: 30px 0 10px 0;
   position: absolute !important;
   top: 0;
   right: 0;
   width: 100%;
   z-index: 999;
   @media ${device.lg} {
+    padding-top: 10px;
     position: fixed !important;
     transition: 0.4s;
     &.scrolling {
