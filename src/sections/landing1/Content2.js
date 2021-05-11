@@ -110,7 +110,7 @@ const Content2 = () => (
               data-aos-once="true"
             >
               <div className="content-text pl-lg--50">
-                <div className="section-title">
+                <div className="section-title pl-lg-5">
                   <Title style={{ color: '#443D4F' }}>meet the developer</Title>
                   <Text mb={4} style={{ color: '#878787' }}>
                     Drew Roberts grew up on a farm in Kentucky and began
