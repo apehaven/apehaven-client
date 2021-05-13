@@ -62,7 +62,7 @@ const Footer = ({ isDark = true }) => {
   return (
     <>
       {/* <!-- Footer section --> */}
-      <Box bg="dark" style={{ paddingTop: 50 }}>
+      <Box bg="dark" style={{ paddingTop: 115 }}>
         <Container fluid>
           <Row className="align-items-center justify-content-center">
             <SocialMedia href="https://t.me/ApeHaven">

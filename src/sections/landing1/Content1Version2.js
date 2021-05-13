@@ -5,15 +5,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 import { device, theme } from "../../utils";
 import ape2Image from "../../assets/image/png/ape-2.png";
-import imgL1FeatureCurve from "../../assets/image/svg/swish-bottom.svg";
+import imgL1FeatureCurve from "../../assets/image/svg/swish-bottom-black.svg";
 import cfga from "../../assets/image/svg/cfga.svg";
 
 const ShapeBottmRight = styled(Box)`
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   left: -5px;
   width: calc(100vw + 10px);
-  background-color: ${({ theme }) => theme.colors.dark};
   img {
     min-width: 100%;
   }
@@ -41,7 +40,7 @@ const Border = styled.div`
 const Content1 = () => (
   <>
     {/* <!-- Content section 1 --> */}
-    <Section className="position-relative" bg="secondary">
+    <Section className="position-relative" bg="secondary" style={{ paddingBottom: 100 }}>
       <ShapeBottmRight>
         <img src={imgL1FeatureCurve} alt="" className="img-fluid" />
       </ShapeBottmRight>
