@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Title, Text, Box, Span } from "../Core";
 
 export const CardSidebar = ({ children, ...rest }) => (
-  <Box bg="ash" borderRadius="10px" mb="30px" p="25px" {...rest}>
+  <Box bg="purpleDark" borderRadius="10px" mb="30px" p="25px" {...rest}>
     {children}
   </Box>
 );

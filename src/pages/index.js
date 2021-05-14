@@ -4,6 +4,7 @@ import WhyApes from "../sections/landing1/Content1";
 import Tokenomics from "../sections/landing2/Feature1";
 import MeetTheDeveloper from "../sections/landing1/Content2";
 import WhereWeDonate from "../sections/landing1/Content1Version2";
+import Blog from "../sections/landing1/Blog";
 import PageWrapper from "../components/PageWrapper";
 
 const LandingPage4 = () => {
@@ -24,6 +25,9 @@ const LandingPage4 = () => {
         </div>
         <div id="where-we-donate">
           <WhereWeDonate />
+        </div>
+        <div id="blog">
+          <Blog />
         </div>
         {/* <div id="how-to-buy">
           <FAQ />

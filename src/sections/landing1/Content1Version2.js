@@ -41,9 +41,9 @@ const Content1 = () => (
   <>
     {/* <!-- Content section 1 --> */}
     <Section className="position-relative" bg="secondary">
-      <ShapeBottmRight>
-        <img src={imgL1FeatureCurve} alt="" className="img-fluid" />
-      </ShapeBottmRight>
+      {/*<ShapeBottmRight>*/}
+      {/*  <img src={imgL1FeatureCurve} alt="" className="img-fluid" />*/}
+      {/*</ShapeBottmRight>*/}
       <Container>
         <Row className="align-items-center">
           <Col md="12" lg="6" className="order-lg-2">
