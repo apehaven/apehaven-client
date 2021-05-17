@@ -8,6 +8,12 @@ import ape2Image from "../../assets/image/png/ape-2.png";
 import imgL1FeatureCurve from "../../assets/image/svg/swish-bottom-black.svg";
 import cfga from "../../assets/image/svg/cfga.svg";
 
+const SectionStyled = styled(Section)`
+  position: relative;
+  background-color: ${({ theme }) => theme.colors.secondary};
+  padding-bottom: 100px;
+`;
+
 const ShapeBottmRight = styled(Box)`
   position: absolute;
   bottom: -3px;
@@ -40,7 +46,7 @@ const Border = styled.div`
 const Content1 = () => (
   <>
     {/* <!-- Content section 1 --> */}
-    <Section className="position-relative" bg="secondary" style={{ paddingBottom: 100 }}>
+    <SectionStyled>
       <ShapeBottmRight>
         <img src={imgL1FeatureCurve} alt="" className="img-fluid" />
       </ShapeBottmRight>
@@ -83,7 +89,7 @@ const Content1 = () => (
         </Row>
         <div style={{ height: 50 }} />
       </Container>
-    </Section>
+    </SectionStyled>
   </>
 );
 

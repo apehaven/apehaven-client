@@ -10,6 +10,11 @@ import facebook from "../../assets/image/svg/facebook.svg";
 import twitch from "../../assets/image/svg/twitch.svg";
 import { device } from "../../utils";
 
+const BoxStyled = styled(Box)`
+  background-color: ${({ theme }) => theme.colors.dark};
+  padding-top: 115px;
+`;
+
 const TitleStyled = styled(Title)`
   font-size: 16px;
   font-weight: 700;
@@ -62,7 +67,7 @@ const Footer = ({ isDark = true }) => {
   return (
     <>
       {/* <!-- Footer section --> */}
-      <Box bg="dark" style={{ paddingTop: 115 }}>
+      <BoxStyled>
         <Container fluid>
           <Row className="align-items-center justify-content-center">
             <SocialMedia href="https://t.me/ApeHaven">
@@ -166,7 +171,7 @@ const Footer = ({ isDark = true }) => {
             </Col>
           </Row>
         </Container>
-      </Box>
+      </BoxStyled>
     </>
   );
 };

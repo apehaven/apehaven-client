@@ -18,6 +18,7 @@ const Card = styled.div`
   border-radius: 30px;
 
   @media ${device.md} {
+    max-width: 700px;
     flex-direction: row;
     align-items: center;
     padding: 35px;

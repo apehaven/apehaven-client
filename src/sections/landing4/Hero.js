@@ -42,6 +42,7 @@ const RaisedCardContainer = styled.div`
     position: absolute;
     bottom: -80px;
     z-index: 3;
+    margin-left: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
