@@ -6,17 +6,7 @@ import styled from "styled-components";
 import { Title, Section, Box, Text, Button } from "../../components/Core";
 import { device } from "../../utils";
 
-import svgCurve from "../../assets/image/svg/l1-curve-content2.svg";
 import developerImage from "../../assets/image/png/developer.png";
-
-const ShapeTop = styled(Box)`
-  position: absolute;
-  top: 0;
-  left: -150px;
-  img {
-    min-width: 100%;
-  }
-`;
 
 const ContentCard = ({
   color = "primary",
@@ -86,9 +76,6 @@ const Content2 = () => (
   <>
     {/* <!-- Content section 2 --> */}
     <Section bg="#f7f7fb" className="position-relative">
-      <ShapeTop>
-        <img src={svgCurve} alt="" className="img-fluid" />
-      </ShapeTop>
       <Container>
         <Row className="align-items-flex-start justify-content-space-between">
           <Col lg="5" md="9" sm="12" className="mb-5 mb-lg-0">
