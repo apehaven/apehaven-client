@@ -122,6 +122,15 @@ const Footer = ({ isDark = true }) => {
                       </Col>
                       <Col md={3} sm={6} xs={6}>
                         <div className="mb-5 mb-lg-4">
+                          <a href="#roadmap">
+                            <TitleStyled variant="card" color="white">
+                              Roadmap
+                            </TitleStyled>
+                          </a>
+                        </div>
+                      </Col>
+                      <Col md={3} sm={6} xs={6}>
+                        <div className="mb-5 mb-lg-4">
                           <a href="#where-we-donate">
                             <TitleStyled variant="card" color="white">
                               Where we donate

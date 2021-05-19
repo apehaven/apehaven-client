@@ -22,10 +22,10 @@ export const menuItems = [
     name: "tokenomics",
     label: "Tokenomics",
   },
-  // {
-  //   name: "roadmap",
-  //   label: "Roadmap",
-  // },
+  {
+    name: "roadmap",
+    label: "Roadmap",
+  },
   {
     name: "where-we-donate",
     label: "Where we Donate",
