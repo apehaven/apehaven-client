@@ -1,15 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 
 import {
     Box,
     Section, Text, Title,
 } from "../../components/Core";
 import {theme} from "../../utils";
-
-import roadmapSvg from '../../assets/image/svg/roadmap.svg';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-
 
 const Card = ({
   date,
