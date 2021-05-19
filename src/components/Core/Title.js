@@ -6,7 +6,7 @@ import { device } from "../../utils";
 const SectionTitle = styled.h2`
   font-weight: 700;
   letter-spacing: -2.5px;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 54px;
   margin-bottom: 16px;
   font-family: Poppins;
