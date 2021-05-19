@@ -1,21 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import styled from 'styled-components';
 
 import {
     Box,
     Section, Text, Title,
 } from "../../components/Core";
-import {device} from "../../utils";
+import {theme} from "../../utils";
 
 import roadmapSvg from '../../assets/image/svg/roadmap.svg';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 
-const Img = styled.img`
-  display: none;
-  @media ${device.lg} {
-    display: inline-block;
-  }
-`
 
 const Card = ({
   date,
@@ -65,17 +59,11 @@ const Roadmap = () => (
               </Text>
             </Box>
           </Col>
-          <Col lg="1" className="d-flex align-items-center justify-center text-center">
-            <Img src={roadmapSvg} />
-          </Col>
-          <Col lg="5" className="mt-5 mt-lg-0">
-            <Row>
-              <Col
-                md="12"
-                data-aos="fade-right"
-                data-aos-duration="750"
-                data-aos-once="true"
-                data-aos-delay="50"
+          <Col lg="6" className="mt-5 mt-lg-0">
+            <VerticalTimeline layout="1-column-left">
+              <VerticalTimelineElement
+                position="right"
+                iconStyle={{ background: theme.colors.light }}
               >
                 <Card date="April 2021:">
                   🦍 $APES Launch
@@ -86,14 +74,10 @@ const Roadmap = () => (
                   <br />
                   📶 Etherscan Registration
                 </Card>
-              </Col>
-              <Col
-                md="12"
-                className="mt-5"
-                data-aos="fade-right"
-                data-aos-duration="750"
-                data-aos-once="true"
-                data-aos-delay="50"
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                position="right"
+                iconStyle={{ background: theme.colors.light }}
               >
                 <Card date="May 2021:">
                   ❓ Community AMA
@@ -122,20 +106,16 @@ const Roadmap = () => (
                   <br />
                   📈 Announcement of strategic partners
                 </Card>
-              </Col>
-              <Col
-                md="12"
-                className="mt-5"
-                data-aos="fade-right"
-                data-aos-duration="750"
-                data-aos-once="true"
-                data-aos-delay="50"
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                position="right"
+                iconStyle={{ background: theme.colors.yellow }}
               >
                 <Card date="June 2021:">
                   🦍 Adopt an ape
                 </Card>
-              </Col>
-            </Row>
+              </VerticalTimelineElement>
+            </VerticalTimeline>
           </Col>
         </Row>
       </Container>

@@ -1,0 +1,26 @@
+@import "~react-vertical-timeline-component/style.min.css";
+
+.vertical-timeline:before {
+  top: 150px;
+  height: 76%;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: none;
+  width: 52px;
+  height: 52px;
+  left: -6px;
+  border: 8px solid #FFFFFF;
+  top: 80px;
+}
+
+.vertical-timeline-element-content {
+  background: none;
+  box-shadow: none;
+  margin-left: 80px;
+  padding: 0;
+}
+
+.vertical-timeline-element-content-arrow {
+  display: none;
+}
