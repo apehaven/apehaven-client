@@ -138,7 +138,7 @@ const PostDetails = () => (
         </p>
       </div>
     </Post>
-    <Box className="d-flex" mt={4}>
+    <Box className="d-flex flex-wrap" mt={4}>
       <BadgePost>Freelance</BadgePost>
       <BadgePost>Design</BadgePost>
       <BadgePost>Earning</BadgePost>
