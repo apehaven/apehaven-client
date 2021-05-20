@@ -130,7 +130,7 @@ const Layout = ({ children, pageContext }) => {
           </div>
         </Loader>
         <div className="site-wrapper overflow-hidden" ref={eleRef}>
-          <Header isDark={gContext.headerDark} />
+          <Header />
           {children}
 
           <Footer isDark={gContext.footerDark} />

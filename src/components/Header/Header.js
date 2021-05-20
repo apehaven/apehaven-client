@@ -43,8 +43,7 @@ const SiteHeader = styled.header`
       transform: translateY(0%);
       box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
       z-index: 9999;
-      background: ${({ dark, theme }) =>
-        dark ? theme.colors.dark : theme.colors.light};
+      background: ${({ theme }) => theme.colors.dark};
     }
   }
 
@@ -125,8 +124,7 @@ const Menu = styled.ul`
   > li {
     > .nav-link {
       @media ${device.lg} {
-        color: ${({ dark, theme }) =>
-          dark ? theme.colors.light : theme.colors.darkShade}!important;
+        color: ${({ theme }) => theme.colors.light}!important;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -136,7 +134,7 @@ const Menu = styled.ul`
         padding-right: 18px !important;
       }
       &:hover {
-        color: ${({ theme }) => theme.colors.primary} !important;
+        color: ${({ dark, theme }) => dark ? theme.colors.primary : theme.colors.dark} !important;
       }
     }
   }
@@ -259,10 +257,11 @@ const MenuDropdown = styled.ul`
   }
 `;
 
-const Header = ({ isDark = false }) => {
+const Header = () => {
   const gContext = useContext(GlobalContext);
   const [showScrolling, setShowScrolling] = useState(false);
   const [showReveal, setShowReveal] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   useScrollPosition(({ prevPos, currPos }) => {
     if (currPos.y < 0) {
@@ -272,8 +271,10 @@ const Header = ({ isDark = false }) => {
     }
     if (currPos.y < -300) {
       setShowReveal(true);
+      setIsDark(true);
     } else {
       setShowReveal(false);
+      setIsDark(false);
     }
   });
 
@@ -283,19 +284,19 @@ const Header = ({ isDark = false }) => {
         className={`sticky-header ${showScrolling ? "scrolling" : ""} ${
           showReveal ? "reveal-header" : ""
         }`}
-        dark={isDark ? 1 : 0}
+        dark={isDark}
       >
         <Container fluid>
           <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light">
             {/* <!-- Brand Logo--> */}
             <div className="brand-logo">
-              <Logo white={isDark} />
+              <Logo white />
             </div>
             <div className="collapse navbar-collapse">
               <div className="navbar-nav ml-lg-auto mr-3">
                 <Menu
                   className="navbar-nav d-none d-lg-flex"
-                  dark={isDark ? 1 : 0}
+                  dark={isDark}
                 >
                   {menuItems.map(
                     (
@@ -319,7 +320,7 @@ const Header = ({ isDark = false }) => {
                               </a>
                               <MenuDropdown
                                 className="menu-dropdown dropdown-right"
-                                dark={isDark ? 1 : 0}
+                                dark={isDark}
                               >
                                 {items.map((subItem, indexSub) => {
                                   const hasInnerSubItems = Array.isArray(
@@ -343,7 +344,7 @@ const Header = ({ isDark = false }) => {
                                           </a>
                                           <MenuDropdown
                                             className="menu-dropdown dropdown-right"
-                                            dark={isDark ? 1 : 0}
+                                            dark={isDark}
                                           >
                                             {subItem.items.map(
                                               (itemInner, indexInnerMost) => (
