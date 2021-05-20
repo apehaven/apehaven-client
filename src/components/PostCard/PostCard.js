@@ -115,7 +115,7 @@ const PostCard = ({
       </Text>
       {readMore && (
         <Box>
-          <Link href="/">
+          <Link href="/blog/1">
             <a>
               <Span color="primary">Continue Reading</Span>
             </a>

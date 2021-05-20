@@ -30,6 +30,10 @@ export const menuItems = [
     name: "where-we-donate",
     label: "Where we Donate",
   },
+  {
+    name: "blog",
+    label: "Blog",
+  },
   // {
   //   name: "how-to-buy",
   //   label: "How to Buy",
