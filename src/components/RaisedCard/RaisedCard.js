@@ -11,17 +11,21 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  max-width: 800px;
 
   background: #FFFFFF;
   box-shadow: 4px 6px 20px 6px rgba(0, 0, 0, 0.09);
   border-radius: 30px;
 
   @media ${device.md} {
+    width: 700px;
     flex-direction: row;
     align-items: center;
     padding: 35px;
     height: 160px;
+  }
+  
+  @media ${device.lg} {
+    width: 800px;
   }
 `;
 

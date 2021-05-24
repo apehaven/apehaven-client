@@ -46,7 +46,7 @@ const Content1 = () => (
       </ShapeBottmRight>
       <Container>
         <Row className="align-items-center">
-          <Col md="12" lg="6" className="order-lg-2">
+          <Col md="12" lg="6" className="order-lg-2 mt-md-5">
             <div className="position-relative pl-lg-5">
               <div
                 className="pl-lg-4 text-center text-lg-right"
@@ -104,7 +104,7 @@ const Content1 = () => (
                   </Button>
                 </a>
                 <a href="/apehaven.pdf" target="_blank" rel="noreferrer">
-                  <Button mt={3}>Whitepaper</Button>
+                  <Button mt={3} style={{ marginRight: theme.space[3] }}>Whitepaper</Button>
                 </a>
                 <a
                   href="https://t.me/ApeHaven"

@@ -40,8 +40,9 @@ const RaisedCardContainer = styled.div`
   margin-top: 70px;
   @media ${device.md} {
     position: absolute;
-    bottom: -80px;
+    bottom: -100px;
     z-index: 3;
+    margin-left: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
