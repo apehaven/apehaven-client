@@ -104,7 +104,7 @@ const Content1 = () => (
                   </Button>
                 </a>
                 <a href="/apehaven.pdf" target="_blank" rel="noreferrer">
-                  <Button mt={3}>Whitepaper</Button>
+                  <Button mt={3} style={{ marginRight: theme.space[3] }}>Whitepaper</Button>
                 </a>
                 <a
                   href="https://t.me/ApeHaven"
