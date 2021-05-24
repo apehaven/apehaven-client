@@ -46,7 +46,7 @@ const Content1 = () => (
       </ShapeBottmRight>
       <Container>
         <Row className="align-items-center">
-          <Col md="12" lg="6" className="order-lg-2">
+          <Col md="12" lg="6" className="order-lg-2 mt-md-5">
             <div className="position-relative pl-lg-5">
               <div
                 className="pl-lg-4 text-center text-lg-right"
