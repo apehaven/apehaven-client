@@ -119,10 +119,18 @@ const Layout = ({ children, pageContext }) => {
         <Head>
           <title>ApeHaven</title>
 
-          <link rel="preconnect" href="https://fonts.gstatic.com" /> 
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+          <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="dns-prefetch" href="https://i.ytimg.com" />
+          <link rel="preconnect" href="https://i.ytimg.com" />
+          <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+            rel="stylesheet"
+          />
 
-          <link rel="icon" href='/favicon.ico' />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
           <div className="load-circle">
@@ -135,7 +143,6 @@ const Layout = ({ children, pageContext }) => {
 
           <Footer isDark={gContext.footerDark} />
         </div>
-
         <ModalVideo />
       </ThemeProvider>
     </>

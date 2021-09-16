@@ -1,11 +1,14 @@
 import React from "react";
+import dynamic from "next/dynamic";
+
+import PageWrapper from "../components/PageWrapper";
 import Landing from "../sections/landing4/Hero";
 import WhyApes from "../sections/landing1/Content1";
-import Tokenomics from "../sections/landing2/Feature1";
-import MeetTheDeveloper from "../sections/landing1/Content2";
-import WhereWeDonate from "../sections/landing1/Content1Version2";
-import Roadmap from "../sections/landing1/Roadmap";
-import PageWrapper from "../components/PageWrapper";
+const Tokenomics = dynamic(() => import("../sections/landing2/Feature1"));
+const Roadmap = dynamic(() => import("../sections/landing1/Roadmap"));
+const WhereWeDonate = dynamic(() =>
+  import("../sections/landing1/Content1Version2")
+);
 
 const LandingPage4 = () => {
   return (
@@ -23,15 +26,9 @@ const LandingPage4 = () => {
         <div id="roadmap">
           <Roadmap />
         </div>
-        <div id="meet-the-developer">
-          <MeetTheDeveloper />
-        </div>
         <div id="where-we-donate">
           <WhereWeDonate />
         </div>
-        {/* <div id="how-to-buy">
-          <FAQ />
-        </div> */}
       </PageWrapper>
     </>
   );

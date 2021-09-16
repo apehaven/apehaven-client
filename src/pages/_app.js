@@ -29,16 +29,6 @@ import "../assets/fonts/typography-font/typo.css";
 import "../assets/fonts/fontawesome-5/css/all.css";
 
 const MyApp = ({ Component, pageProps, router }) => {
-  if (router.pathname.match(/sign|reset|coming/)) {
-    return (
-      <GlobalProvider>
-        <Layout pageContext={{ layout: "bare" }}>
-          <Component {...pageProps} />
-        </Layout>
-      </GlobalProvider>
-    );
-  }
-
   return (
     <GlobalProvider>
       <Layout pageContext={{}}>
